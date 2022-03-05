@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+html,
+body {
+  padding: 0;
+  margin: 0; 
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+ background-color: rgb(40, 44, 52);
+  }
+  .def{
+    width:100%;
+    border-radius: 10px !important;
+  
+    border-radius: 13px;
+    margin-top: 10px;
+ padding: 10px;
+ height: fit-content;
+  }
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.textbox{
+  height: 64vh;
+  
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+
+  scrollbar-width: thin;
+  border: 10px solid rgb(105, 105, 105);
+  border-radius: 10px;
+  padding: 10px 8px;
+  overflow-x: hidden;
+
+  .subtitle  {
+    display: flex;
+     font-size: 5vw;
+     font-family: "Montserrat",sans-serif;
+ }
+
+}
+
+.title {
+  font-size: 7vw;
+  text-transform: uppercase;
+  text-align: center;
+
+  font-family: "Montserrat", sans-serif;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 35vh;
+    width: 100%;
+  }
+  
+}
+
+@media (max-width: 900px) {
+  
+  .title {
+    font-size: 11vw;
+  }
+  .header {
+    justify-content: space-evenly;
+    height: 25vh;
+  }
+}
+
+
+.inpu{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+
+  .in{
+    width: 43%;
+    
+  }
+}
+
+.hy{ display:  flex;
+  flex-direction: row;
+ justify-content: space-between;
+ .shy{
+  display:  flex;
+ flex-direction: row;
+ 
+}
+
+.ahy{
+  display:  flex;
+ flex-direction: row;
+
+}
+ 
+}
